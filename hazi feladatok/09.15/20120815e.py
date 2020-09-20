@@ -1,4 +1,26 @@
 #!/usr/bin/env python3
+
+"""
+Palindróm
+
+Írjunk függvényt, mely egy sztringről eldönti, hogy palindróm-e. Egy karaktersorozatot akkor
+nevezünk palindrómnak, ha visszafelé olvasva megegyezik az eredeti karaktersorozattal, pl.: görög.
+
+A feladatot többféleképpen is oldjuk meg:
+
+(1) Triviális módszer (Pythonban egy szekvencia nagyon egyszerűen megfordítható).
+
+(2) Iteratív módszer. A sztringről nem készíthetünk másolatot.
+
+Tipp: használhatunk egy while ciklust is. Hasonlóan működik a C nyelvben megismertekkel:
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+(3) Rekurzív módszer. Csak hogy szokjuk a rekurziót is.
+"""
+
 TEXT = "görög"
 TEXT2 = "török"
 
