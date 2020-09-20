@@ -1,0 +1,2 @@
+# Szkriptnyelvek
+DEIK III. félév
