@@ -1,0 +1,19 @@
+Anagramma
+
+Az anagramma[http://hu.wikipedia.org/wiki/Anagramma] a szójátékok egy fajtája, melyben értelmes szavak vagy mondatok betűinek sorrendjét úgy változtatjuk meg, hogy az eredmény szintén értelmes szó vagy mondat legyen.
+
+Példák:
+
+    listen = silent
+    A gentleman = Elegant man
+    Clint Eastwood = Old west action
+    dormitory = dirty room
+    stb[http://www.funenglishgames.com/funstuff/funnyanagrams.html].
+
+Írjunk egy függvényt, amely kap két sztringet, s eldönti, hogy a második szó az első szó anagrammája-e vagy sem. (A kis- és nagybetűket nem muszáj megkülönböztetni, lásd a 2. példát).
+
+A feladatot többféleképpen is meg lehet oldani. Van egy triviális módszer, de engem inkább a nemtriviális változat érdekelne. Vagyis próbáljuk meg megoldani a feladatot legalább kétféleképpen!
+
+Tipp
+
+A 3. példában látható, hogy a szóközök nem számítanak, ill. nincs különbség a kis- és nagybetűk között. Írjon egy olyan függvényt, ami kap egy sztringet, s visszaadja annak a normalizált alakját. Pl. normalize("Clint Eastwood") == "clinteastwood".

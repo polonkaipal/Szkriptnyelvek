@@ -1,0 +1,11 @@
+Medián
+
+"A medián a statisztika egy nevezetes középértéke, úgynevezett helyzeti középérték. Véges elemszámú sokaság esetén a medián a sorba rendezett adatok közül a középső érték; vagy másképpen: a medián az az érték, amely a sorba rendezett adatokat két egyenlő részre osztja. Ha a sokaság elemeinek száma páratlan, akkor az iménti meghatározás egyértelmű, mert akkor van egy középső adat, amely előtt ugyanannyi adat van, mint utána. Páros számú elem esetén két középső adat van, ez esetben a gyakorlatban a két érték átlagát szokták megadni." (wikipédia[https://hu.wikipedia.org/wiki/Medi%c3%a1n])
+
+Feladat: adott számoknak egy listája. Határozzuk meg a medián értékét.
+
+Példák:
+test([1, 2, 3, 4, 5]) == 3
+test([3, 1, 2, 5, 3]) == 3
+test([1, 300, 2, 200, 1]) == 2
+test([3, 6, 20, 99, 10, 15]) == 12.5

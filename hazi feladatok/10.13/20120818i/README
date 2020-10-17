@@ -1,0 +1,6 @@
+Számjegyek összege (PE #16)
+
+2^15 = 32768 és a számjegyek összege 3 + 2 + 7 + 6 + 8 = 26.
+
+Mennyi 2^1000 számjegyeinek az összege?
+[https://arato.inf.unideb.hu/szathmary.laszlo/python-solution-checker/check.php?id=20120818i]
