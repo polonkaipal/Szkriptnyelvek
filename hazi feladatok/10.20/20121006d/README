@@ -1,0 +1,19 @@
+Fájlkezelés
+
+A string1.py[https://jabbalaci.github.io/teaching-assets/hun/python/01_sztringek/string1.py.txt] file-ból távolítsuk el a megjegyzéseket. Az egyszerűség kedvéért csak azokat a sorokat töröljük, amelyek # jellel kezdődnek. A kimenetet egy string1_clean.py nevű file-ba írjuk ki.
+
+Finomítás
+
+Második menetben távolítsuk el azokat a megjegyzéseket is, ahol a # jel indentálva szerepel, pl.:
+
+def mix_up(a, b):
+    # TODO...
+    return
+...
+def main():
+    print('donuts')    # ezzel most nem muszáj foglalkozni
+    # Minden egyes sor meghívja a donuts() fv.-t s összehasonlítja a visszaadott
+    # értéket a várt eredménnyel.
+    test(donuts(4), 'Fánkok száma: 4')
+
+A fenti példában 3 eltávolítandó sor szerepel.
