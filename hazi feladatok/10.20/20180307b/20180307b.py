@@ -9,7 +9,7 @@ def main():
         db = 0
         for sor in f:
             li = []
-            reszek = sor.split()
+            reszek = ["".join(sorted(list(s))) for s in sor.split()]
             for s in reszek:
                 if s not in li:
                     li.append(s)
